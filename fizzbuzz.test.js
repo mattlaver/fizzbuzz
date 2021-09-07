@@ -60,12 +60,14 @@ describe("isFizz", () => {
 /*
 describe("isFizzBuzz`", () => {
     each([
-      [15],
+      [3],
       [30],
-      [45],
-      [60]
+      [43],
+      [63],
+      [73],
+      [93]
     ]).it("when the input is '%s'", (text) => {
-      expect(fizzbuzz(text)).toBe("FizzBuzz");
+      expect(fizzbuzz(text)).toBe("LuckyFizzBuzz");
     });
   });
 
